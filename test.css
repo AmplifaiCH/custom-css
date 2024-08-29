@@ -1,80 +1,58 @@
+/* Header and Avatar */
 .vfrc-header {
-    background-color: #2A4B5B;
+    background-color: #2A4B5B; /* Match the blue color of the avatar box */
     color: #FFFFFF;
     font-size: 16px;
-}
-
-.vfrc-assistant-info {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding: 10px;
 }
 
 .vfrc-avatar {
     width: 50px;
     height: 50px;
-    background-color: #2A4B5B;
+    background-color: #2A4B5B; /* Match the blue color of the avatar box */
     border-radius: 50%;
+    margin-right: 10px;
 }
 
-.vfrc-assistant-info--title {
+.vfrc-assistant-info {
+    color: #4A235A; /* Purple color for the header text */
     font-size: 18px;
     font-weight: bold;
-    color: #4A235A;
 }
 
-.vfrc-assistant-info--description {
-    font-size: 14px;
-    color: #000000;
-}
-
-.vfrc-chat {
+/* Text Box */
+.vfrc-chat--dialog {
     background-color: #FFFFFF;
     border: 1px solid #CCCCCC;
-}
-
-.vfrc-chat--dialog {
-    padding: 15px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .vfrc-system-response {
-    background-color: #E8EAF6;
-    border-radius: 5px;
-    padding: 10px;
-    color: #2A4B5B;
-    font-size: 14px;
-}
-
-.vfrc-button {
-    background-color: #AED6F1;
-    border: none;
-    color: #2A4B5B;
-    padding: 10px;
-    border-radius: 3px;
-    margin: 5px;
-}
-
-.vfrc-user-response .vfrc-message {
     background-color: #FFFFFF;
-    border: 1px solid #2A4B5B;
-    color: #2A4B5B;
-    padding: 10px;
+    color: #4A235A; /* Purple color for the header text */
+    font-size: 14px;
     border-radius: 5px;
-}
-
-.vfrc-input {
     border: 1px solid #CCCCCC;
-    border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
 }
 
-.vfrc-chat-input--button {
-    background-color: #2A4B5B;
-    color: #FFFFFF;
-    border-radius: 5px;
+/* Buttons */
+.vfrc-button {
+    background-color: #6A95C5; /* Light blue background */
+    border: 1px solid #2A4B5B; /* Darker blue border */
+    color: #FFFFFF; /* White text */
     padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
 }
 
-.vfrc-footer--watermark {
-    display: none;
+.vfrc-button:hover {
+    background-color: #4A235A; /* Purple on hover */
 }
